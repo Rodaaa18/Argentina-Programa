@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Curriculum Vitae</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class=" d-flex flex-column justify-content-center align-items-center border border-2 navbar__right">
+        <img src="./assets/pngwing.com (2).png" class="imgCv" alt="">
+        <h2 class="nameTitle">Rodrigo</h2>
+        <h3 class="nameTitle">Alvarez</h3>
+        <ul class="d-flex flex-column justify-content-evenly align-items-center m-0 p-0 h-100">
+            <li class="list ">
+                <button class=" buttons__nav" id="about-me">About Me</button>
+            </li>
+            <li class="list ">
+                <button class=" buttons__nav" id="skills">Skills</button>
+            </li>
+            <li class="list ">
+                <button class=" buttons__nav" id="experience">Experience</button>
+            </li>
+            <li class="list ">
+                <button class=" buttons__nav" id="contact">Contact</button>
+            </li>
+        </ul>
+    </nav>
+      <!-- Main -->
+      <main class="main__body">
+            <section class="container p-5"  data-aos="fade-right">
+                <div class="row" >
+                    <div class="col-12" >
+                        <div class="w-100 border border-3 ">
+                            <div class="card_create d-flex flex-column justify-content-center align-items-start">
+                                <img src="./assets/pngwing.com (2).png" class="imagen" alt="">
+                            </div>
+                                <div class="esquina"></div>
+                                <div class="container" id="row-container">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <p class="card__title p-3">About Me</p>                                
+                                            <p class="personal_data">
+                                                I am a fullstack developer at INFT SA since April of last year, I started with a Help Desk role and after a month to do development work. Create an E-Commerce type SPA for the commercial area of the company using ReactJs for the Frontend and NodeJs for the Backend, as a database use Google Sheets.
+                                                Then I started working on the Backend developing APIs for the new Municipal Web Portals with .Net Core 3.1 and 6 while developing the FrontEnd with ReactJs as well.
+                                                I am currently working as a team leader and developing both Backend and Frontend.
+                                            </p>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <ul class="personal_data_right">
+                                                <li><label>Edad:</label><strong> 29 años</strong></li>
+                                                <li><label>Nacionalidad:</label><strong> Argentina</strong></li>
+                                                <li><label>Provincia:</label><strong> Córdoba</strong></li>
+                                                <li><label>Ciudad:</label><strong> Alta Gracia</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+      </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</html>
